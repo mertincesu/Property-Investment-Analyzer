@@ -4,7 +4,7 @@ from datetime import datetime
 import csv
 
 # Initialize Google Maps client
-gmaps = googlemaps.Client(key='AIzaSyDSKErlELj5sVA0A9bRKNsxAV95lyKhMjg')
+gmaps = googlemaps.Client(key='GOOGLE_MAPS_API_KEY')
 
 # Input and output file paths
 input_file = 'filtered_transactions_20241119003217.csv'
